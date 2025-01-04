@@ -56,11 +56,19 @@ function disableAllButtons() {
     const buttons = document.querySelectorAll(".box");
     buttons.forEach((button) => (button.disabled = true));
   }
-  $("#re").click(function() {
+$("#reset").click(function() {
     location.reload();
+    animatePress(this.id);
     console.log("true");
 
 });
+$("#re").click(function() {
+    location.reload();
+    animatePress(this.id);
+    console.log("true");
+
+});
+
 function animatePress(currentbutton) {
     $("#" + currentbutton).addClass("pressed");
     setTimeout(function () {

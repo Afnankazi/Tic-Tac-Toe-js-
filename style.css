@@ -16,7 +16,7 @@
 
 }
 body{
-    background-color: #6D9F71;
+    background-color: #441752;
 }
 *{
     margin: 0;
@@ -25,7 +25,7 @@ body{
 }
 
 h1{
-     color: #e4e3d3;
+     color: #e2daf4;
      font-weight: 100;
      font-size: 5rem;
      
@@ -37,13 +37,22 @@ h1{
     border: none;
     box-shadow: 0 0 1rem rgb(0, 0, 0,0.5);
     font-size: 8vmin;
-    color: #E69677;
-    background-color: #BBD5ED;
+    color:#441752;
+    background-color:  #EFB6C8;
+}
+#reset{
+    padding: 0.5rem;
+    font-size: 1.25rem;
+    background-color: #8174A0;
+    color: #fff;
+    border: none;
+    border-radius: 1rem;
+    margin-bottom: 2rem;
 }
 #re{
     padding: 0.5rem;
     font-size: 1.25rem;
-    background-color: #59544B;
+    background-color: #8174A0;
     color: #fff;
     border: none;
     border-radius: 1rem;
@@ -51,15 +60,16 @@ h1{
 
 .hidden{
  display: none ;
+
 }
 p{
     padding-bottom: 5%;
 }
 .cointainer{
     font-size: 2rem;
-    color:#e4e3d3;
+    color:#e2daf4;
     padding-top: 10%;
-    height: 70vh;
+    height: 60vh;
 }
 .pressed {
     box-shadow: 0 0 10px white;
